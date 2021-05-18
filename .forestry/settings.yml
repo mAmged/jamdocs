@@ -9,7 +9,6 @@ sections:
 - type: document
   path: path-of-doc
   label: doc label
-  match: "**/*"
 - type: directory
   path: dir-name
   label: directory label
@@ -32,7 +31,7 @@ sections:
   path: data/settings.json
   label: Menu
 upload_dir: static
-public_path: ''
+public_path: "/media"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
